@@ -1,8 +1,8 @@
-﻿Console.Clear();
-Console.Write("Введите число: ");
-int n = int.Parse(Console.ReadLine()!);
-Console.Write("Введите 2 число: ");
-int m = int.Parse(Console.ReadLine()!);
-for (int i = 2; i < m; i++)
-    m = m * i;
-    Console.WriteLine($"{n}");
+﻿Console.Clear(); 
+Console.WriteLine("Введите два числа: "); 
+int A = int.Parse(Console.ReadLine()!); 
+int B = int.Parse(Console.ReadLine()!); 
+int result = A; 
+for (int i = 1; i <= B; i++) 
+{ result = result * A; } 
+ Console.WriteLine(result);
